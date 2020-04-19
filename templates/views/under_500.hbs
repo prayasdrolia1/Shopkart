@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Orders Under 500</title>
+
+        {{>head}}
+
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+        
+    </head>
+ 
+ 
+    <body>
+        <div class="content">
+            {{>nav}}
+
+            {{>header}}
+            
+            <div class="content-wrap">                
+                <h1>Orders under 500</h1>
+
+            <table class="table table-hover">
+                    <thead>
+                        <tr class="bg-success">
+                            <td>OrderID</td>
+                            <td>Item Name</td>
+                            <td>Price</td>
+                            <td>Quantity</td>
+                            <td>Total</td>
+                            <td>Transaction No.</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>001001</td>
+                            <td>Honeywell Mask</td>
+                            <td>200 Rs.</td>
+                            <td>2</td>
+                            <td>400 Rs.</td>
+                            <td>1234567890</td>
+                        </tr>
+                        <tr>
+                            <td>001012</td>
+                            <td>Bournvita</td>
+                            <td>430 Rs.</td>
+                            <td>1</td>
+                            <td>430 Rs.</td>
+                            <td>1234568990</td>
+                        </tr>
+                        <tr>
+                            <td>001451</td>
+                            <td>Handwash</td>
+                            <td>120 Rs.</td>
+                            <td>2</td>
+                            <td>240 Rs.</td>
+                            <td>1334567890</td>
+                        </tr>
+                        <tr>
+                            <td>011678</td>
+                            <td>Hand Sanitizer</td>
+                            <td>120 Rs.</td>
+                            <td>2</td>
+                            <td>240 Rs.</td>
+                            <td>1234787890</td>
+                        </tr>
+                        <tr>
+                            <td colspan="4">Total Amount</td>
+                            <td>1310 Rs.</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div>
+                    <div class="row" style="border: 1px solid grey; margin: 8px;">
+                    <div class="col-10">
+                        <h1>Explore some more products</h1>
+                        
+                    </div>
+                    <div class="col-2">
+                        <h2><u>View all</u></h2>
+                    </div>
+                    </div>
+                    <div class="row">
+                    <div class="col-4">
+                        <img class="img img-fluid" src="img/nuts.png" alt="nuts">
+                    </div>
+                    <div class="col-4">
+                        <img class="img img-fluid" src="img/oils.png" alt="nuts">
+                    </div>
+                    <div class="col-4">
+                        <img class="img img-fluid" src="img/beverages.png" alt="nuts">
+                    </div>
+                    </div>
+
+                    <div class="row" style="border: 1px solid grey; margin: 8px;">
+                    <div class="col-10" >
+                        <h1>Grooming & Hygiene</h1>
+                        <h3>Everything your family needs</h3>
+                    </div>
+                    <div class="col-2">
+                        <h2><u>View all</u></h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <img class="img img-fluid" src="img/masks.png" alt="masks">
+                    </div>
+                    <div class="col-4">
+                        <img class="img img-fluid" src="img/bath.png" alt="bath">
+                    </div>
+                    <div class="col-4">
+                        <img class="img img-fluid" src="img/handwash.png" alt="handwash">
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            {{>footer}}
+        </div>
+    </body>
+</html>

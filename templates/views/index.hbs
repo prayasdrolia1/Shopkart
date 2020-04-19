@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home</title>
+        
+        {{>head}}
+        
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+    </head>
+
+    <body>
+        
+        <div class="content">
+            {{>nav}}
+            {{>header}}
+        <div class="content-wrap">
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                    <img class="d-block w-100 img img-fluid" src="img/dailyneeds_rb_hbd_15apr.jpg" alt="First slide">
+                    </div>
+                    <div class="carousel-item img img-fluid">
+                    <img class="d-block w-100" src="img/health&fitness_bk_26th_r.jpg" alt="Second slide">
+                    </div>
+                    <div class="carousel-item img img-fluid">
+                    <img class="d-block w-100" src="img/Lybrate_W_rk_08042020_new.jpg" alt="Third slide">
+                    </div>
+                    <div class="carousel-item img img-fluid">
+                    <img class="d-block w-100" src="img/Covid19_DonationDrive_01Apr_W_HB.jpg" alt="Fourth slide">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            
+            
+            <div>
+                <div class="row" style="border: 1px solid grey; margin: 8px;">
+                    <div class="col-10">
+                        <h1>Food, beverages & Supplements</h1>
+                        <h3>For your health</h3>
+                    </div>
+                    <div class="col-2">
+                        <h2><u>View all</u></h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <img class="img img-fluid" src="img/nuts.png" alt="nuts">
+                    </div>
+                    <div class="col-4">
+                        <img class="img img-fluid" src="img/oils.png" alt="nuts">
+                    </div>
+                    <div class="col-4">
+                        <img class="img img-fluid" src="img/beverages.png" alt="nuts">
+                    </div>
+                </div>
+                <div class="row" style="border: 1px solid grey; margin: 8px;">
+                    <div class="col-10" >
+                        <h1>Grooming & Hygiene</h1>
+                        <h3>Everything your family needs</h3>
+                    </div>
+                    <div class="col-2">
+                        <h2><u>View all</u></h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <img class="img img-fluid" src="img/masks.png" alt="masks">
+                    </div>
+                    <div class="col-4">
+                        <img class="img img-fluid" src="img/bath.png" alt="bath">
+                    </div>
+                    <div class="col-4">
+                        <img class="img img-fluid" src="img/handwash.png" alt="handwash">
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mb-20">
+                <img id="covid-info" class="img img-fluid" src="img/IN_GWD_Covid19_MOHFW_1x._CB420361282_.jpg" alt="covid-info">
+            </div>
+            {{>footer}}
+        </div>
+        </div>
+    </body>
+</html>
