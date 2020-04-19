@@ -49,6 +49,10 @@ app.get('/under_500', (req, res) => {
     res.render('under_500')
 })
 
+app.get('/about', (req, res) => {
+    res.render('about')
+})
+
 app.get('/*', (req, res) => {
     res.render('404', {
         title: '404',
